@@ -1,0 +1,16 @@
+{% load static %}
+<div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="{% url 'post_all' %}" class="nav-item nav-link active">Home</a>
+                            <a href="{% url 'about_me' %}" class="nav-item nav-link">About</a>
+                            <a href="{% url 'send_message' %}" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
